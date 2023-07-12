@@ -75,4 +75,12 @@
     background-color: #FFB74D;
   }
 
-  
+/* Media queries */
+
+@media (max-width: 600px) {
+    .form-signup,
+    .form-login {
+      max-width: 100%;
+      padding: 20px;
+    }
+  }

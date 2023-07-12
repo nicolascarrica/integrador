@@ -1,3 +1,25 @@
+
+  /* Estilos generales de la página */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 20px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #FF9800; 
+    color: #000;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
 /* Estilos para el navbar */
 nav {
     background-color: #FF9800; /* Color amarillo */
@@ -22,29 +44,8 @@ nav {
     color: #000;
     text-decoration: none;
     padding: 10px;
-    font-size: 18px; /* Tamaño de fuente */
-    font-weight: bold; /* Texto en negrita */
-  }
-  
-  /* Estilos generales de la página */
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Secciones */
-  section {
-    padding: 20px;
-  }
-  
-  /* Estilos para el footer */
-  footer {
-    background-color: #FF9800; /* Color amarillo */
-    color: #000;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px; /* Tamaño de fuente */
+    font-size: 18px; 
+    font-weight: bold; 
   }
   
 /* Estilos para la sección de inicio */
@@ -65,7 +66,7 @@ nav {
   .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #FF9800; /* Color blanco para el texto */
+    color: #FF9800; 
   }
   
   .hero p {
@@ -75,8 +76,8 @@ nav {
   
   .btn {
     display: inline-block;
-    background-color: #FF9800; /* Color naranja para el botón */
-    color: #000; /* Color blanco para el texto del botón */
+    background-color: #FF9800; 
+    color: #000; 
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -85,7 +86,7 @@ nav {
   }
   
   .btn:hover {
-    background-color: #FFB74D; /* Color naranja claro para el botón al pasar el cursor */
+    background-color: #FFB74D; 
   }
   
 
@@ -124,7 +125,7 @@ nav {
   
 
   /* Estilos para la sección de contacto */
-/* Estilos para la sección de contacto */
+
 #contacto {
     text-align: center;
     padding: 50px 0;
@@ -194,27 +195,76 @@ nav {
   .contact-form button {
     display: inline-block;
   }
-/* Estilos para el botón en la sección de contacto */
+
 .contact-form button {
   display: inline-block;
-  background-color: #FF9800; /* Color naranja */
-  color: #000; /* Color blanco para el texto del botón */
+  background-color: #FF9800; 
+  color: #000; 
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 5px;
   font-size: 14px;
   transition: background-color 0.3s ease;
-  border: none; /* Eliminar el borde del botón */
+  border: none; 
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: #FFB74D; /* Color naranja claro para el botón al pasar el cursor */
+  background-color: #FFB74D; 
 }  
   
   
   /* Media queries para hacer el sitio responsive */
-  @media (max-width: 600px) {
-    /* Aquí puedes definir los estilos específicos para pantallas pequeñas */
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 24px;
+    }
+  
+    .hero p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .btn {
+      font-size: 12px;
+      padding: 8px 16px;
+    }
+  
+    .product-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 20px;
+    }
+  
+    .contact-info h3,
+    .contact-info p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  
+    .contact-info li {
+      margin-bottom: 5px;
+    }
+  
+    .contact-info li a img {
+      width: 24px;
+      height: 24px;
+      margin-right: 5px;
+    }
+  
+    .contact-form h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .contact-form input,
+    .contact-form textarea {
+      padding: 6px;
+      font-size: 12px;
+    }
+  
+    .contact-form button {
+      padding: 6px 12px;
+      font-size: 12px;
+    }
   }
   
