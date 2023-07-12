@@ -1,0 +1,78 @@
+/* Estilos para el formulario de registro */
+
+.signup{
+    text-align: center;
+}
+
+.form-signup {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-signup h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-signup input[type="text"],
+  .form-signup input[type="email"],
+  .form-signup input[type="password"],
+  .form-signup button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-signup button {
+    background-color: #FF9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-signup button:hover {
+    background-color: #FFB74D;
+  }
+
+  
+  
+  /* Estilos para el formulario de inicio de sesión */
+  .login{
+    text-align: center;
+  }
+  .form-login {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-login h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-login input[type="text"],
+  .form-login input[type="password"],
+  .form-login button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .form-login button {
+    background-color: #FF9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-login button:hover {
+    background-color: #FFB74D;
+  }
+
+  
